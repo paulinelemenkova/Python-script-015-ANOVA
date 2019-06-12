@@ -4,16 +4,16 @@
 from __future__ import print_function
 import scipy
 import os
-from statsmodels.compat import urlopen
 import numpy as np
-import statsmodels.api as sm
 import pandas as pd
 pd.set_option("display.width", 100)
 import matplotlib.pyplot as plt
 from matplotlib.patches import Polygon
+import statsmodels.api as sm
+from statsmodels.compat import urlopen
 from statsmodels.formula.api import ols
-from statsmodels.graphics.api import interaction_plot, abline_plot
 from statsmodels.stats.anova import anova_lm
+from statsmodels.graphics.api import interaction_plot, abline_plot
 #
 os.chdir('/Users/pauline/Documents/Python')
 #
